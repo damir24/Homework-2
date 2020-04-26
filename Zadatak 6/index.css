@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background-color: #30235a;
+    font-style:bolder;
+    text-decoration: white;
+}
+.textview{
+    width: 217;
+    margin: 5;
+    font-size: 20;
+    padding: 5;
+    background-color: #352763;
+    font-style:bolder;
+    text-decoration: white;
+
+}
+.main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.bc{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);

@@ -1,0 +1,35 @@
+.tab{
+    color: white;
+    background-color: blue;
+    display:inline-block;
+    padding:10px;
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.tab:hover{
+    background-color: red;
+}
+
+.sel{
+background-color: blue;
+}
+
+.sel:hover{
+    background-color: red;
+}
+
+#shortB{
+    display:none;
+}
+
+#longB{
+    display:none;
+}
+.buttons{
+    margin-top: 15px;
+    margin-left: 10px;
+}
